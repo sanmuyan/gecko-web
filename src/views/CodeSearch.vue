@@ -312,7 +312,7 @@ const handleSearch = async (isNoHandleTag = false) => {
   searchLoading.value = false
 }
 
-handleSearch()
+// handleSearch()
 
 const handleSizeChange = currentSize => {
   pageSize.value = currentSize
